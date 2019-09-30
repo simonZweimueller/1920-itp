@@ -94,9 +94,15 @@ git rm git.md
 #### Dateien in das remote-repo einpflegen
 
 ```
-git push origin <branch name>
-git push origin master
+git push -u origin <branch name>
+git push -u origin master
 ```
+
+-u ... Speichert origin und branch name damit man später nur 
+```
+git push
+```
+machen muss
 
 #### Dateien aus dem remote-repo entfernen
 
